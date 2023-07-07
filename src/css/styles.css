@@ -1024,20 +1024,14 @@ img {
         margin-right: 35px;
     }
 
-    .frontpage__links {
-       display: flex; 
-       flex-flow: row nowrap;
-       width: 100%;
-       margin: 0 auto;
-       max-width: 700px;
-       align-items: flex-start;
-       text-align: center;
+    .frontpage__links, .hero__content {
+       max-width: 900px;
     }
 
-    .frontpage__links-icon {
+    /* .frontpage__links-icon {
         width: 70%;
         height: 50%;
-    }
+    } */
 
     .frontpage__links-description {
         max-width: 265px;
@@ -1045,14 +1039,12 @@ img {
         font-size: 1.1rem;
     }
 
-    .links-main {
+    /* .links-main {
         padding: 0;
-    }
+    } */
 
     .cta__main {
-        margin: 0 auto;
-        max-width: 90%;
-        margin-top: 400px;
+        max-width: 1090px;
     }
 
 }
